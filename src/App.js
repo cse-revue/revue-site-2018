@@ -1,26 +1,13 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavLink from './screens/NavLink';
 import Home from './screens/Home';
-import About from './screens/About';
+import Teams from './screens/Teams';
 import logo from './img/logo.png';
 import './scss/style.css';
 import promo from './video/promo.mp4';
 
 class App extends Component {
-  // constructor() {
-  //   this.state = {
-  //     activeItem: '/',
-  //   };
-  // }
-
-  checkIfHome(match, location) {
-    console.log(location.pathname);
-    // return location.pathname === '/';
-    console.log(match);
-    return false;
-  }
-
   render() {
     return (
       <div>
@@ -30,17 +17,13 @@ class App extends Component {
             <video playsInline loop muted autoPlay className="video">
               <source src={promo} type="video/mp4"/>
             </video>
-          </div>  
+          </div>
           <div className="header-container">
             <div className="header">
-              <div className="nav-item">SAMPLE TEXT</div>
-              <div className="nav-item">SAMPLE TEXT</div>
-              <div className="nav-button">Buy Tickets</div>
             </div>
           </div> {/* /navbar-container */}
           <div className="banner-message">
             <img className="logo" src={logo} alt="logo" />
-            CSE REVUE
           </div>
 
         </div>
@@ -48,15 +31,16 @@ class App extends Component {
           <div>
             <div className="navbar-container">
               <div className="navbar">
-                  <NavLink to="/">Home</NavLink>
-                  <NavLink to="/about">About</NavLink>
-                  <NavLink to="/test">Thing</NavLink>
-                  <NavLink to="/asdf">Thing</NavLink>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/teams">Teams</NavLink>
+                <NavLink to="/contact">Contact Exec</NavLink>
+                <NavLink to="/sponsors">Sponsors</NavLink>
+                <NavLink to="/rbs-or-something">Buy Tickets</NavLink>
               </div>
             </div>
             <div className="content">
               <Route exact path="/" component={Home} />
-              <Route exact path="/about" component={About} />
+              <Route exact path="/teams" component={Teams} />
             </div>
           </div>
         </Router>
