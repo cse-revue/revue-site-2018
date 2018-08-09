@@ -101,6 +101,10 @@ $mobile-width: 768px;
     align-items: center;
     color: white;
     font-size: 100px;
+
+    img {
+      max-width: 500px;
+    }
   }
 }
 
@@ -108,7 +112,9 @@ $mobile-width: 768px;
   display: flex;
   justify-content: center;
   border-bottom: 1px solid $lighter-gray;
-  // background-color: green;
+  // position: sticky;
+  // top: 0;
+  // background-color: #FFFFFF;
 
   .navbar {
     display: flex;
@@ -154,6 +160,14 @@ $mobile-width: 768px;
     justify-content: space-around;
     margin: 50px 0;
 
+    &.column {
+      flex-direction: column;
+    }
+
+    &.left {
+      align-items: flex-start;
+    }
+
     @media (max-width: $mobile-width) {
       flex-direction: column;
 
@@ -175,13 +189,14 @@ $mobile-width: 768px;
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  // justify-content: space-evenly;
+  justify-content: center;
 
   .card {
     display: flex;
     flex-direction: column;
     // justify-content: center;
     align-items: center;
+    border-radius: 10px;
 
     width: 160px;
     height: 175px;
@@ -199,6 +214,8 @@ $mobile-width: 768px;
       height: 100px;
       width: 100%;
       object-fit: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
       // border-radius: 50%;
     }
 
@@ -213,4 +230,53 @@ $mobile-width: 768px;
 
 img {
   max-width: 100%;
+}
+
+.contact-exec-page {
+
+}
+
+.teams-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .row {
+    max-height: 1080px;
+
+    .small {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // width: auto;
+    }
+
+    .big {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        text-align: center;
+      }
+
+      p {
+        margin-top: 0;
+        max-width: 600px;
+      }
+    }
+
+    img {
+      border-radius: 50%;
+    }
+  }
+}
+
+.sponsors-page {
+  display: flex;
+  justify-content: space-evenly;
+
+  img {
+    width: 25%;
+  }
 }

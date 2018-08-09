@@ -5,14 +5,16 @@ import NavLink from './screens/NavLink';
 import Home from './screens/Home';
 import Teams from './screens/Teams';
 import ContactExec from './screens/ContactExec';
-import logo from './img/logo.png';
+import Sponsors from './screens/Sponsors';
+import logo from './img/logo-white-transparent.png';
 import './scss/style.css';
 import promo from './video/promo.mp4';
 
 class App extends Component {
   scrollToNavbar() {
-    const node = ReactDOM.findDOMNode(this.refs.navbar);
-    window.scrollTo(0, node.offsetTop);
+    const node = ReactDOM.findDOMNode(this.refs.content);
+    console.log(node.offsetTop);
+    window.scrollTo(0, node.offsetTop - 120);
   }
 
   render() {
@@ -37,18 +39,19 @@ class App extends Component {
         <Router>
           <div>
             <div className="navbar-container">
-              <div className="navbar" ref="navbar">
-                <NavLink onClick={() => this.scrollToNavbar()} to="/">Home</NavLink>
+              <div className="navbar">
+                <NavLink onClick={() => this.scrollToNavbar()} to="/">Homes</NavLink>
                 <NavLink onClick={() => this.scrollToNavbar()} to="/teams">Teams</NavLink>
                 <NavLink onClick={() => this.scrollToNavbar()} to="/contact">Contact Exec</NavLink>
                 <NavLink onClick={() => this.scrollToNavbar()} to="/sponsors">Sponsors</NavLink>
-                <NavLink onClick={() => this.scrollToNavbar()} to="/rbs-or-something">Buy Tickets</NavLink>
+                <a className="navbar-item" href="//rbs.cserevue.org.au" target="_blank">Buy Tickets</a>
               </div>
             </div>
-            <div className="content">
+            <div className="content" ref="content">
               <Route exact path="/" component={Home} />
               <Route exact path="/teams" component={Teams} />
               <Route exact path="/contact" component={ContactExec} />
+              <Route exact path="/sponsors" component={Sponsors} />
             </div>
           </div>
         </Router>
