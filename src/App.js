@@ -44,14 +44,16 @@ class App extends Component {
                 <NavLink onClick={() => this.scrollToNavbar()} to="/teams">Teams</NavLink>
                 <NavLink onClick={() => this.scrollToNavbar()} to="/contact">Contact Exec</NavLink>
                 <NavLink onClick={() => this.scrollToNavbar()} to="/sponsors">Sponsors</NavLink>
-                <a
-                  className="navbar-item"
-                  href="//shrexcel.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Buy Tickets
-                </a>
+                {
+                  // <a
+                  //   className="navbar-item"
+                  //   href="//shrexcel.com"
+                  //   target="_blank"
+                  //   rel="noopener noreferrer"
+                  // >
+                  //   Buy Tickets
+                  // </a>
+                }
               </div>
             </div>
             <div className="content" ref="content">
