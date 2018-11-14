@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../img/logo.png';
+import logo from '../img/logo-black-transparent.png';
 import meme from '../img/doge.jpg';
 import cast from '../img/cast.jpg';
 import tech from '../img/tech.jpg';
@@ -29,86 +29,65 @@ export default class Home extends Component {
           <div className="big">
             <h1>What is CSE Revue?</h1>
             <p>
-              The Computer Science and Engineering (CSE) Revue is a live
-              comedy sketch show held during September at the University
-              of New South Wales (UNSW). Produced and directed by members
-              of the society, the show serves to highlight the technical
-              and creative talents of UNSW students, as well as an The
-              Computer Science and Engineering (CSE) Revue is a live comedy
+              The Computer Science and Engineering (CSE) Revue is a live comedy
               sketch show held during September at the University of New
               South Wales (UNSW). Produced and directed by members of the
               society, the show serves to highlight the technical and creative
               talents of UNSW students, as well as an opportunity for students
-              to further develop their university experience.opportunity for
-              students to further develop their university experience.
+              to further develop their university experience
             </p>
           </div>
         </div>
         <h1 style={{ textAlign: 'center' }}>Teams</h1>
         <div className="card-container">
-          <div className="card">
+          <a className="card" href="/teams#cast">
             <img src={cast} alt="Cast"/>
             <div>Cast</div>
-          </div>
-          <div className="card">
+          </a>
+          <a className="card" href="/teams#tech">
             <img src={tech} alt="Tech"/>
             <div>Tech</div>
-          </div>
-          <div className="card">
+          </a>
+          <a className="card" href="/teams#band">
             <img src={band} alt="Band"/>
             <div>Band</div>
-          </div>
-          <div className="card">
+          </a>
+          <a className="card" href="/teams#videos">
             <img src={videos} alt="Videos"/>
             <div>Videos</div>
-          </div>
-          <div className="card">
+          </a>
+          <a className="card" href="/teams#scripts">
             <img src={scripts} alt="Scripts"/>
             <div>Scripts</div>
-          </div>
-          <div className="card">
+          </a>
+          <a className="card" href="/teams#costumes">
             <img src={costumes} alt="Costumes"/>
             <div>Costumes</div>
-          </div>
-          <div className="card">
+          </a>
+          <a className="card" href="/teams#promos">
             <img src={promos} alt="Promos"/>
             <div>Promos</div>
-          </div>
-          <div className="card">
+          </a>
+          <a className="card" href="/teams#foh">
             <img src={foh} alt="Front of House"/>
             <div>Front of House</div>
-          </div>
-          <div className="card">
+          </a>
+          <a className="card" href="/teams#design">
             <img src={design} alt="Design"/>
             <div>Design</div>
-          </div>
-          <div className="card">
+          </a>
+          <a className="card" href="/teams#webmin">
             <img src={webmin} alt="Webmin"/>
             <div>Webmin</div>
-          </div>
-          <div className="card">
+          </a>
+          <a className="card" href="/teams#socials">
             <img src={socials} alt="Socials"/>
             <div>Socials</div>
-          </div>
-          <div className="card">
+          </a>
+          <a className="card" href="/teams#wellbeing">
             <img src={wellbeing} alt="Wellbeing"/>
             <div>Wellbeing</div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="big">
-            <h1>Contact Us!</h1>
-            <p>Works and such</p>
-            <ul>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-              <li>Item</li>
-            </ul>
-          </div>
-          <div className="small">
-            <img src="http://via.placeholder.com/350x150" alt="placeholder" />
-          </div>
+          </a>
         </div>
       </div>
     );
