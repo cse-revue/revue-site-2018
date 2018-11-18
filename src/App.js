@@ -6,6 +6,7 @@ import Home from './screens/Home';
 import Teams from './screens/Teams';
 import ContactExec from './screens/ContactExec';
 import Sponsors from './screens/Sponsors';
+import History from './screens/History';
 import logo from './img/logo-white-transparent.png';
 import './scss/style.css';
 import promo from './video/promo.mp4';
@@ -44,6 +45,7 @@ class App extends Component {
                 <NavLink onClick={() => this.scrollToNavbar()} to="/teams">Teams</NavLink>
                 <NavLink onClick={() => this.scrollToNavbar()} to="/contact">Contact Exec</NavLink>
                 <NavLink onClick={() => this.scrollToNavbar()} to="/sponsors">Sponsors</NavLink>
+                <NavLink onClick={() => this.scrollToNavbar()} to="/history">History</NavLink>
                 <a
                   className="navbar-item"
                   href="//shrexcel.com"
@@ -59,6 +61,7 @@ class App extends Component {
               <Route exact path="/teams" component={Teams} />
               <Route exact path="/contact" component={ContactExec} />
               <Route exact path="/sponsors" component={Sponsors} />
+              <Route exact path="/history" component={History} />
             </div>
           </div>
         </Router>
