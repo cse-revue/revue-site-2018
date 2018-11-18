@@ -235,10 +235,6 @@ img {
   max-width: 100%;
 }
 
-.contact-exec-page {
-
-}
-
 .teams-page {
   display: flex;
   flex-direction: column;
@@ -286,5 +282,32 @@ img {
 
   img {
     width: 25%;
+  }
+}
+
+.contact-exec-page {
+  .heading {
+    text-align: center;
+  }
+
+  .exec-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    & > div {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+
+      h2 {
+        margin: 15px 0;
+      }
+
+      p {
+        margin: 5px 0;
+      }
+    }
   }
 }

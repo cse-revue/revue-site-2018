@@ -182,3 +182,20 @@ img {
   justify-content: space-evenly; }
   .sponsors-page img {
     width: 25%; }
+
+.contact-exec-page .heading {
+  text-align: center; }
+
+.contact-exec-page .exec-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .contact-exec-page .exec-tiles > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px; }
+    .contact-exec-page .exec-tiles > div h2 {
+      margin: 15px 0; }
+    .contact-exec-page .exec-tiles > div p {
+      margin: 5px 0; }

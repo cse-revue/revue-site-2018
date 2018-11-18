@@ -6,49 +6,49 @@ export default class ContactExec extends Component {
   render() {
     return (
       <div className="contact-exec-page">
-        <div className="row column left">
+        <div className="heading">
           <h1>Contact Executives</h1>
           <p>Email: <a href="mailto:exec@cserevue.org.au">exec@cserevue.org.au</a></p>
         </div>
         <div className="exec-tiles">
-          <div className="row column left">
+          <div>
             <h2>Directors</h2>
-            <ul>
-              <li>Ryan Klugman</li>
-              <li>Arunav Neil Sarkar</li>
-              <li>Jathurson</li>
-            </ul>
+
+            <p>Gal Aharon</p>
+            <p>Michelle Peng</p>
+            <p>Spencer Monro</p>
+
             <p>Email: <a href="mailto:directors@cserevue.org.au">directors@cserevue.org.au</a></p>
           </div>
-          <div className="row column left">
+          <div>
             <h2>Producers</h2>
-            <ul>
-              <li>Andrew Ha</li>
-              <li>Samantha Chhoeu</li>
-              <li>Kira Xiang Chen</li>
-            </ul>
+
+            <p>Monica Dinh</p>
+            <p>Oliver Shen</p>
+            <p>Raymond Wan</p>
+
             <p>Email: <a href="mailto:producers@cserevue.org.au">producers@cserevue.org.au</a></p>
           </div>
-          <div className="row column left">
+          <div>
             <h2>Treasurer</h2>
-            <ul>
-              <li>Yuvraj Singh</li>
-            </ul>
-            <p>Email: <a href="mailto:yuvraj@cserevue.org.au">yuvraj@cserevue.org.au</a></p>
+
+            <p>Vivian Shen</p>
+
+            <p>Email: <a href="mailto:vivian@cserevue.org.au">vivian@cserevue.org.au</a></p>
           </div>
-          <div className="row column left">
+          <div>
             <h2>Secretary</h2>
-            <ul>
-              <li>Matthew Chhoeu</li>
-            </ul>
-            <p>Email: <a href="mailto:matthew@cserevue.org.au">matthew@cserevue.org.au</a></p>
+
+            <p>Ashwin Sarkar</p>
+
+            <p>Email: <a href="mailto:ashwin@cserevue.org.au">ashwin@cserevue.org.au</a></p>
           </div>
-          <div className="row column left">
+          <div>
             <h2>Arc Delegate</h2>
-            <ul>
-              <li>Jack She</li>
-            </ul>
-            <p>Email: <a href="mailto:jack@cserevue.org.au">jack@cserevue.org.au</a></p>
+
+            <p>Amelia Lau</p>
+
+            <p>Email: <a href="mailto:amelia@cserevue.org.au">amelia@cserevue.org.au</a></p>
           </div>
         </div>
       </div>
