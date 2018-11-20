@@ -287,19 +287,22 @@ img {
 
 .contact-exec-page {
   .heading {
-    text-align: center;
+    // text-align: center;
   }
 
   .exec-tiles {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
 
     & > div {
       display: flex;
       flex-direction: column;
-      text-align: center;
-      padding: 20px;
+      // text-align: center;
+      padding: 10px 0;
+      margin: 10px 0;
+      border-top: 1px solid black;
 
       h2 {
         margin: 15px 0;

@@ -45,6 +45,7 @@ class App extends Component {
                 <NavLink onClick={() => this.scrollToNavbar()} to="/teams">Teams</NavLink>
                 <NavLink onClick={() => this.scrollToNavbar()} to="/contact">Contact Exec</NavLink>
                 <NavLink onClick={() => this.scrollToNavbar()} to="/sponsors">Sponsors</NavLink>
+                <NavLink onClick={() => this.scrollToNavbar()} to="/history">History</NavLink>
                 {
                   // <a
                   //   className="navbar-item"

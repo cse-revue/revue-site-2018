@@ -34,21 +34,21 @@ export default class ContactExec extends Component {
 
             <p>Vivian Shen</p>
 
-            <p>Email: <a href="mailto:vivian@cserevue.org.au">vivian@cserevue.org.au</a></p>
+            <p>Email: <a href="mailto:treasurer@cserevue.org.au">treasurer@cserevue.org.au</a></p>
           </div>
           <div>
             <h2>Secretary</h2>
 
             <p>Ashwin Sarkar</p>
 
-            <p>Email: <a href="mailto:ashwin@cserevue.org.au">ashwin@cserevue.org.au</a></p>
+            <p>Email: <a href="mailto:secretary@cserevue.org.au">secretary@cserevue.org.au</a></p>
           </div>
           <div>
             <h2>Arc Delegate</h2>
 
             <p>Amelia Lau</p>
 
-            <p>Email: <a href="mailto:amelia@cserevue.org.au">amelia@cserevue.org.au</a></p>
+            <p>Email: <a href="mailto:arc@cserevue.org.au">arc@cserevue.org.au</a></p>
           </div>
         </div>
       </div>
