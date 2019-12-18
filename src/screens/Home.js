@@ -1,28 +1,29 @@
 import React, { Component } from 'react';
 import logo from '../img/logo-black-transparent.png';
-import meme from '../img/doge.jpg';
 import cast from '../img/cast.jpg';
 import tech from '../img/tech.jpg';
 import band from '../img/band.jpg';
-import choreos from '../img/choreos.jpg';
 import costumes from '../img/costumes.jpg';
 import promos from '../img/promos.jpg';
 import scripts from '../img/scripts.jpg';
 import socials from '../img/socials.jpg';
-import vocals from '../img/vocals.jpg';
-import vos from '../img/vos.jpg';
 import webmin from '../img/webmin.jpg';
 import wellbeing from '../img/wellbeing.jpg';
-import pubs from '../img/pubs.PNG';
-import design from '../img/design.PNG';
+import design from '../img/design.png';
 import videos from '../img/videos.png';
 import foh from '../img/foh.jpg';
+import fundraising from '../img/fundraising.jpg';
+// import meme from '../img/doge.jpg';
+// import choreos from '../img/choreos.jpg';
+// import vocals from '../img/vocals.jpg';
+// import vos from '../img/vos.jpg';
+// import pubs from '../img/pubs.PNG';
 
 export default class Home extends Component {
   render() {
     return (
       <div>
-        <div className="row">
+        <div className="row align-top">
           <div className="small">
             <img src={logo} alt="logo"/>
           </div>
@@ -87,6 +88,10 @@ export default class Home extends Component {
           <a className="card" href="/teams#wellbeing">
             <img src={wellbeing} alt="Wellbeing"/>
             <div>Wellbeing</div>
+          </a>
+          <a className="card" href="/teams#fundraising">
+            <img src={fundraising} alt="Fundraising"/>
+            <div>Fundraising</div>
           </a>
         </div>
       </div>

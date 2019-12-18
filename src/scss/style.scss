@@ -160,6 +160,10 @@ $mobile-width: 768px;
     justify-content: space-around;
     margin: 50px 0;
 
+    &.align-top {
+      align-items: initial;
+    }
+
     &.column {
       flex-direction: column;
     }
@@ -256,6 +260,7 @@ img {
       display: flex;
       flex-direction: column;
       align-items: center;
+
 
       h1 {
         text-align: center;

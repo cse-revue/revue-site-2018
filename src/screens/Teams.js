@@ -14,9 +14,10 @@ import vos from '../img/vos.jpg';
 import webmin from '../img/webmin.jpg';
 import wellbeing from '../img/wellbeing.jpg';
 import pubs from '../img/pubs.PNG';
-import design from '../img/design.PNG';
+import design from '../img/design.png';
 import videos from '../img/videos.png';
 import foh from '../img/foh.jpg';
+import fundraising from '../img/fundraising.jpg';
 
 export default class Home extends Component {
   render() {
@@ -420,6 +421,29 @@ export default class Home extends Component {
           </div>
           <div className="small">
             <img src={wellbeing} alt="logo"/>
+          </div>
+        </div>
+        <div className="row" id="fundraising">
+          <div className="small">
+            <img src={fundraising} alt="logo"/>
+          </div>
+          <div className="big">
+            <h1>Fundraising</h1>
+            <p>
+            The fundraising team runs all our bake sales, barbecues and other
+            on-campus services. Fundraising is a super important team as they
+            contribute directly to allowing us to afford bigger, better and
+            more fun elements of the show and the Revue life.
+            <br/>
+            No experience is assumed and anyone is welcome. If you have baking
+            experience you will be particularly welcome to join, but none is
+            necessary. Being part of this team will mean many fun experiences
+            of baking, chilling at fundraisers, as well as interacting with
+            cast members during show week as they promote the show. If you
+            want to be part of a team that has a high impact on the show but
+            is also really chill, fun and accepting, then Fundraising is
+            for you!
+            </p>
           </div>
         </div>
       </div>

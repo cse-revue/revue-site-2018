@@ -103,6 +103,8 @@
     align-items: center;
     justify-content: space-around;
     margin: 50px 0; }
+    .content .row.align-top {
+      align-items: initial; }
     .content .row.column {
       flex-direction: column; }
     .content .row.left {
