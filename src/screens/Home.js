@@ -41,58 +41,58 @@ export default class Home extends Component {
         </div>
         <h1 style={{ textAlign: 'center' }}>Teams</h1>
         <div className="card-container">
-          <a className="card" href="/teams#cast">
+          <div className="card">
             <img src={cast} alt="Cast"/>
             <div>Cast</div>
-          </a>
-          <a className="card" href="/teams#tech">
+          </div>
+          <div className="card">
             <img src={tech} alt="Tech"/>
             <div>Tech</div>
-          </a>
-          <a className="card" href="/teams#band">
+          </div>
+          <div className="card">
             <img src={band} alt="Band"/>
             <div>Band</div>
-          </a>
-          <a className="card" href="/teams#videos">
+          </div>
+          <div className="card">
             <img src={videos} alt="Videos"/>
             <div>Videos</div>
-          </a>
-          <a className="card" href="/teams#scripts">
+          </div>
+          <div className="card">
             <img src={scripts} alt="Scripts"/>
             <div>Scripts</div>
-          </a>
-          <a className="card" href="/teams#costumes">
+          </div>
+          <div className="card">
             <img src={costumes} alt="Costumes"/>
             <div>Costumes</div>
-          </a>
-          <a className="card" href="/teams#promos">
+          </div>
+          <div className="card">
             <img src={promos} alt="Promos"/>
             <div>Promos</div>
-          </a>
-          <a className="card" href="/teams#foh">
+          </div>
+          <div className="card">
             <img src={foh} alt="Front of House"/>
             <div>Front of House</div>
-          </a>
-          <a className="card" href="/teams#design">
+          </div>
+          <div className="card">
             <img src={design} alt="Design"/>
             <div>Design</div>
-          </a>
-          <a className="card" href="/teams#webmin">
+          </div>
+          <div className="card">
             <img src={webmin} alt="Webmin"/>
             <div>Webmin</div>
-          </a>
-          <a className="card" href="/teams#socials">
+          </div>
+          <div className="card">
             <img src={socials} alt="Socials"/>
             <div>Socials</div>
-          </a>
-          <a className="card" href="/teams#wellbeing">
+          </div>
+          <div className="card">
             <img src={wellbeing} alt="Wellbeing"/>
             <div>Wellbeing</div>
-          </a>
-          <a className="card" href="/teams#fundraising">
+          </div>
+          <div className="card">
             <img src={fundraising} alt="Fundraising"/>
             <div>Fundraising</div>
-          </a>
+          </div>
         </div>
       </div>
     );
