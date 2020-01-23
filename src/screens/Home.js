@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import logo from '../img/logo-black-transparent.png';
 import cast from '../img/cast.jpg';
 import tech from '../img/tech.jpg';
@@ -41,58 +42,58 @@ export default class Home extends Component {
         </div>
         <h1 style={{ textAlign: 'center' }}>Teams</h1>
         <div className="card-container">
-          <a className="card" href="/teams#cast">
+          <Link className="card" to="/teams#cast">
             <img src={cast} alt="Cast"/>
             <div>Cast</div>
-          </a>
-          <a className="card" href="/teams#tech">
+          </Link>
+          <Link className="card" to="/teams#tech">
             <img src={tech} alt="Tech"/>
             <div>Tech</div>
-          </a>
-          <a className="card" href="/teams#band">
+          </Link>
+          <Link className="card" to="/teams#band">
             <img src={band} alt="Band"/>
             <div>Band</div>
-          </a>
-          <a className="card" href="/teams#videos">
+          </Link>
+          <Link className="card" to="/teams#videos">
             <img src={videos} alt="Videos"/>
             <div>Videos</div>
-          </a>
-          <a className="card" href="/teams#scripts">
+          </Link>
+          <Link className="card" to="/teams#scripts">
             <img src={scripts} alt="Scripts"/>
             <div>Scripts</div>
-          </a>
-          <a className="card" href="/teams#costumes">
+          </Link>
+          <Link className="card" to="/teams#costumes">
             <img src={costumes} alt="Costumes"/>
             <div>Costumes</div>
-          </a>
-          <a className="card" href="/teams#promos">
+          </Link>
+          <Link className="card" to="/teams#promos">
             <img src={promos} alt="Promos"/>
             <div>Promos</div>
-          </a>
-          <a className="card" href="/teams#foh">
+          </Link>
+          <Link className="card" to="/teams#foh">
             <img src={foh} alt="Front of House"/>
             <div>Front of House</div>
-          </a>
-          <a className="card" href="/teams#design">
+          </Link>
+          <Link className="card" to="/teams#design">
             <img src={design} alt="Design"/>
             <div>Design</div>
-          </a>
-          <a className="card" href="/teams#webmin">
+          </Link>
+          <Link className="card" to="/teams#webmin">
             <img src={webmin} alt="Webmin"/>
             <div>Webmin</div>
-          </a>
-          <a className="card" href="/teams#socials">
+          </Link>
+          <Link className="card" to="/teams#socials">
             <img src={socials} alt="Socials"/>
             <div>Socials</div>
-          </a>
-          <a className="card" href="/teams#wellbeing">
+          </Link>
+          <Link className="card" to="/teams#wellbeing">
             <img src={wellbeing} alt="Wellbeing"/>
             <div>Wellbeing</div>
-          </a>
-          <a className="card" href="/teams#fundraising">
+          </Link>
+          <Link className="card" to="/teams#fundraising">
             <img src={fundraising} alt="Fundraising"/>
             <div>Fundraising</div>
-          </a>
+          </Link>
         </div>
       </div>
     );
