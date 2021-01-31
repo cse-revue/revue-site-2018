@@ -9,7 +9,7 @@ import promos from '../img/promos.jpg';
 import scripts from '../img/scripts.jpg';
 import socials from '../img/socials.jpg';
 import webmin from '../img/webmin.jpg';
-import wellbeing from '../img/wellbeing.jpg';
+import hospitality from '../img/hospitality.jpg';
 import design from '../img/design.png';
 import videos from '../img/videos.png';
 import foh from '../img/foh.jpg';
@@ -32,11 +32,11 @@ export default class Home extends Component {
             <h1>What is CSE Revue?</h1>
             <p>
               The Computer Science and Engineering (CSE) Revue is a live comedy
-              sketch show held during September at the University of New
+              sketch show held in July at the University of New
               South Wales (UNSW). Produced and directed by members of the
               society, the show serves to highlight the technical and creative
               talents of UNSW students, as well as an opportunity for students
-              to further develop their university experience
+              to further develop their university experience.
             </p>
           </div>
         </div>
@@ -86,14 +86,14 @@ export default class Home extends Component {
             <img src={socials} alt="Socials"/>
             <div>Socials</div>
           </Link>
-          <Link className="card" to="/teams#wellbeing">
-            <img src={wellbeing} alt="Wellbeing"/>
-            <div>Wellbeing</div>
+          <Link className="card" to="/teams#hospitality">
+            <img src={hospitality} alt="Hospitality"/>
+            <div>Hospitality</div>
           </Link>
-          <Link className="card" to="/teams#fundraising">
+          {/* <Link className="card" to="/teams#fundraising">
             <img src={fundraising} alt="Fundraising"/>
             <div>Fundraising</div>
-          </Link>
+          </Link> */}
         </div>
       </div>
     );

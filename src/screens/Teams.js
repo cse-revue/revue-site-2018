@@ -12,7 +12,7 @@ import socials from '../img/socials.jpg';
 import vocals from '../img/vocals.jpg';
 import vos from '../img/vos.jpg';
 import webmin from '../img/webmin.jpg';
-import wellbeing from '../img/wellbeing.jpg';
+import hospitality from '../img/hospitality.jpg';
 import pubs from '../img/pubs.PNG';
 import design from '../img/design.png';
 import videos from '../img/videos.png';
@@ -335,8 +335,6 @@ export default class Home extends Component {
               <li>Willingness to learn</li>
               <li>HTML</li>
               <li>Javascript</li>
-              <li>PHP</li>
-              <li>Scripting skills (esp. Perl)</li>
               <li>
                 Design (on paper, or using design programs like
                 Illustrator and Photoshop)
@@ -377,14 +375,14 @@ export default class Home extends Component {
             </p>
           </div>
         </div>
-        <div className="row" id="wellbeing">
+        <div className="row" id="hospitality">
           <div className="big">
-            <h1>Wellbeing</h1>
+            <h1>Hospitality</h1>
             <p>
-              Wellbeing is all about food and health!
+              Hospitality is all about food and health!
               Delicious, life nurturing food and general health.
               <br/>
-              As a member of the kind Wellbeing team, you'll be
+              As a member of the kind Hospitality team, you'll be
               looking after the cast and crew involved in the show
               by assisting a team to cook for forty humans! hahaha,
               just kidding. Try a hundred and forty.
@@ -404,7 +402,7 @@ export default class Home extends Component {
               a new recipe, or if you think moral support's your
               strong suit.
               <br/>
-              Wellbeing's also one of the more casual teams in terms
+              Hospitality's also one of the more casual teams in terms
               of time commitment, so help out on any nights that you'd
               like. But you should know, the more often you appear
               through the doors, carrying hot, mouth watering food,
@@ -420,10 +418,10 @@ export default class Home extends Component {
             </p>
           </div>
           <div className="small">
-            <img src={wellbeing} alt="logo"/>
+            <img src={hospitality} alt="logo"/>
           </div>
         </div>
-        <div className="row" id="fundraising">
+        {/* <div className="row" id="fundraising">
           <div className="small">
             <img src={fundraising} alt="logo"/>
           </div>
@@ -445,7 +443,7 @@ export default class Home extends Component {
             for you!
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     );
 

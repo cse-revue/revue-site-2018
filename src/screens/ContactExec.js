@@ -8,46 +8,43 @@ export default class ContactExec extends Component {
       <div className="contact-exec-page">
         <div className="heading">
           <h1>Contact Executives</h1>
-          <p>Email: <a href="mailto:exec@cserevue.org.au">exec@cserevue.org.au</a></p>
+          <p>Email: exec AT cserevue.org.au</p>
         </div>
         <div className="exec-tiles">
           <div>
             <h2>Directors</h2>
 
-            <p>Karl Cheng</p>
-            <p>Nicole de Vera</p>
-            <p>Timothy Wu</p>
+            <p>Gal Aharon</p>
 
-            <p>Email: <a href="mailto:directors@cserevue.org.au">directors@cserevue.org.au</a></p>
+            <p>Email: directors AT cserevue.org.au</p>
           </div>
           <div>
             <h2>Producers</h2>
 
             <p>Arnold Kam</p>
-            <p>Jeremy Lim</p>
 
-            <p>Email: <a href="mailto:producers@cserevue.org.au">producers@cserevue.org.au</a></p>
+            <p>Email: producers AT cserevue.org.au</p>
           </div>
           <div>
             <h2>Treasurer</h2>
 
-            <p>Patience Loh</p>
+            <p>Mandy Tao</p>
 
-            <p>Email: <a href="mailto:treasurer@cserevue.org.au">treasurer@cserevue.org.au</a></p>
+            <p>Email: treasurer AT cserevue.org.au</p>
           </div>
           <div>
             <h2>Secretary</h2>
 
-            <p>Timothy Handley</p>
+            <p>Jazzy Zeng</p>
 
-            <p>Email: <a href="mailto:secretary@cserevue.org.au">secretary@cserevue.org.au</a></p>
+            <p>Email: secretary AT cserevue.org.au</p>
           </div>
           <div>
             <h2>Arc Delegate</h2>
 
-            <p>Roy Wallace-Cant</p>
+            <p>Adam Robey</p>
 
-            <p>Email: <a href="mailto:arc@cserevue.org.au">arc@cserevue.org.au</a></p>
+            <p>Email: arc AT cserevue.org.au</p>
           </div>
         </div>
       </div>
