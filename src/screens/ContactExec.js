@@ -15,6 +15,7 @@ export default class ContactExec extends Component {
             <h2>Directors</h2>
 
             <p>Gal Aharon</p>
+            <p>Jess Zhang</p>
 
             <p>Email: directors AT cserevue.org.au</p>
           </div>
@@ -22,6 +23,7 @@ export default class ContactExec extends Component {
             <h2>Producers</h2>
 
             <p>Arnold Kam</p>
+            <p>Mandy Tao</p>
 
             <p>Email: producers AT cserevue.org.au</p>
           </div>
