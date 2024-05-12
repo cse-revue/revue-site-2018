@@ -16,10 +16,6 @@ export default class Sponsors extends Component {
           <img src={cseSchool} alt="UNSW School of CSE"/>
           <img src={arc} alt="Arc"/>
         </div>
-        <div className="row sponsors-page">
-          <img src={remnant3} alt="Remnant"/>
-          <img src={faastprint} alt="Faastprint"/>
-        </div>
       </div>
     );
   }
