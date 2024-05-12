@@ -14,37 +14,36 @@ export default class ContactExec extends Component {
           <div>
             <h2>Directors</h2>
 
-            <p>Gal Aharon</p>
-            <p>Jess Zhang</p>
+            <p>Lachlan Blair</p>
 
             <p>Email: directors AT cserevue.org.au</p>
           </div>
           <div>
             <h2>Producers</h2>
 
-            <p>Arnold Kam</p>
-            <p>Mandy Tao</p>
+            <p>Jack Li</p>
+            <p>Jasmin Arnall</p>
 
             <p>Email: producers AT cserevue.org.au</p>
           </div>
           <div>
             <h2>Treasurer</h2>
 
-            <p>Mandy Tao</p>
+            <p>Winnie Tan</p>
 
             <p>Email: treasurer AT cserevue.org.au</p>
           </div>
           <div>
             <h2>Secretary</h2>
 
-            <p>Jazzy Zeng</p>
+            <p>Clare Chen</p>
 
             <p>Email: secretary AT cserevue.org.au</p>
           </div>
           <div>
             <h2>Arc Delegate</h2>
 
-            <p>Adam Robey</p>
+            <p>Sabina Wang</p>
 
             <p>Email: arc AT cserevue.org.au</p>
           </div>
